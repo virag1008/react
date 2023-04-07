@@ -1,0 +1,40 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Samsung M40",
+      "color": "black",
+      "price": 15000,
+      "category": "Mobile",
+      "brand": "Samsung",
+      "photo": "https://m.media-amazon.com/images/I/618vuo1cHQL._SL1500_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shoes",
+      "color": "black",
+      "price": 1500,
+      "category": "Shoes",
+      "brand": "Puma",
+      "photo": "https://rukminim1.flixcart.com/image/832/832/kzblocw0/shoe/q/z/o/6-380260-6-puma-black-silver-original-imagbcrcgvzx7ghm.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "name": "T-shirt",
+      "color": "White",
+      "price": 6500,
+      "category": "mens-shirt",
+      "brand": "zara",
+      "photo": "https://m.media-amazon.com/images/I/51oWSNkbvSL.jpg"
+    },
+    {
+      "id": 4,
+      "name": "jwellary",
+      "color": "white",
+      "price": 1500000,
+      "category": "diamond",
+      "brand": "Almasika",
+      "photo": "https://5.imimg.com/data5/SELLER/Default/2022/6/UZ/MK/AY/14970841/american-diamond-choker-set-500x500.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(220, 215, 215);
+  text-align: center;
+}
+
+.slotmachine{
+  font-size:12px;
+  width: 100%;
+}
+
+.slot_inner{
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 5px 7px 8px grey;
+  width:300px;
+}
+
+.trial1{
+  display: flex;
+  justify-content: center;
+}

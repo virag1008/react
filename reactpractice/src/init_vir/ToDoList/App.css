@@ -1,0 +1,78 @@
+
+.main_div{
+    background-color: rgb(161, 160, 160);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_div{
+    width:300px ;
+    height: 400px;
+    background-color: rgb(251, 234, 234);
+    border-radius: 15px;
+    box-shadow: 4px 5px 8px black;
+    box-sizing: border-box;
+}
+h1{
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.input_div{
+    text-align: center;
+}
+
+.input_div > button{
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-left: 15px;
+}
+.input_div > button:hover{
+    background-color: green;
+}
+
+input{
+    font-size: 20px;
+    width:160px;
+    border-bottom: 2px solid blueviolet;
+    background-color:rgb(251, 234, 234) ;
+    text-align: center;
+    border-top: 0 solid transparent;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    outline: none;
+}
+
+.todo{
+    display: flex;
+    
+}
+
+li{
+    list-style-type: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    padding-left: 15px;
+}
+
+.remove{
+    border-radius: 50%;
+    border: 0 solid transparent;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.remove:hover{
+    background-color: rgb(251, 25, 25);
+}

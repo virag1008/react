@@ -1,0 +1,112 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"Samsung M40",
+            "color":"black",
+            "price":15000,
+            "category":"Mobile",
+            "brand":"Samsung",
+            "photo":"https://m.media-amazon.com/images/I/618vuo1cHQL._SL1500_.jpg"
+        },
+        {
+            "id":2,
+            "name":"Shoes",
+            "color":"black",
+            "price":1500,
+            "category":"Shoes",
+            "brand":"Puma",
+            "photo":"https://rukminim1.flixcart.com/image/832/832/kzblocw0/shoe/q/z/o/6-380260-6-puma-black-silver-original-imagbcrcgvzx7ghm.jpeg?q=70"
+        },
+        {
+            "id":3,
+            "name":"T-shirt",
+            "color":"White",
+            "price":6500,
+            "category":"mens-shirt",
+            "brand":"zara",
+            "photo":"https://m.media-amazon.com/images/I/51oWSNkbvSL.jpg"
+        },
+        {
+            "id":4,
+            "name":"jwellary",
+            "color":"white",
+            "price":1500000,
+            "category":"diamond",
+            "brand":"Almasika",
+            "photo":"https://5.imimg.com/data5/SELLER/Default/2022/6/UZ/MK/AY/14970841/american-diamond-choker-set-500x500.jpeg"
+        },
+        {
+            "id":5,
+            "name":"jewelery" ,
+            "color":"white",
+            "price":100000,
+            "category":"White Gold Plated Princess",
+            "brand":"Almasika",
+            "photo":"https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+        },
+        {
+            "id":6,
+            "name":"WD 4TB Gaming Drive",
+            "color":"black",
+            "price":15000,
+            "category":"electronics",
+            "brand":"Apple",
+            "photo":"https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+        },
+        {
+            "id":7,
+            "name":"Gaming Monitor",
+            "color":"black",
+            "price":15000,
+            "category":"electronics",
+            "brand":"Samsung",
+            "photo":"https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        },
+        {
+            "id":8,
+            "name":" Women Jacket",
+            "color":"blue",
+            "price":5500,
+            "category":"women's clothing",
+            "brand":"Zara",
+            "photo":"https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+        },
+        {
+            "id":9,
+            "name":"SanDisk SSD",
+            "color":"black",
+            "price":2500,
+            "category":"SSD",
+            "brand":"SanDisk",
+            "photo":"https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+        },
+        {
+            "id":10,
+            "name":"Short Sleeve clothing",
+            "color":"white",
+            "price":2500,
+            "category":"women's clothing",
+            "brand":"Zara",
+            "photo":"https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+        },
+        {
+            "id":11,
+            "name":"Mens Cotton Jacket",
+            "color":"skin-color",
+            "price":2500,
+            "category":"Jacket",
+            "brand":"zara",
+            "photo":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+        },
+        {
+            "id":12,
+            "name":"Portable External Hard Drive",
+            "color":"black",
+            "price":1500,
+            "category":"electronics",
+            "brand":"Almasika",
+            "photo":"https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+        }
+    ]
+}

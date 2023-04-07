@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.calc{
+    background-color: darkturquoise;
+    height: 465px;
+    border-radius: 5px;
+    width: 220px; 
+    box-shadow: 3px 4px 5px gray;
+}
+
+button {
+    font-size: 35px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(200, 177, 51);
+    color: white;
+}
+input{
+    width: 90%;
+    height: 70px;
+    font-size: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 35px;
+    color: rgb(255, 248, 35);
+    text-shadow: 2px 3px 5px red;
+}
+.dot{
+    width: 42px;
+}

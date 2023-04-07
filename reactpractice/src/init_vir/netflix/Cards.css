@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(247, 237, 237);
+}
+h1{
+    text-align: center;
+}
+.cards{
+    background-color: white;
+    border: 1px solid black;
+    float: left;
+    width:auto;
+    margin-left: 80px;
+    transition: all 0.6s;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+.cards:hover{
+    box-shadow: 4px 5px 7px grey;
+    transform: scale(1.1,1.1)
+}
+.card_info{
+    text-align: center;
+}
+.card_img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+button{
+    cursor: pointer;
+}

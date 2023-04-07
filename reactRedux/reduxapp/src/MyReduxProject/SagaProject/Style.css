@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+.header{
+    background-image: linear-gradient( to right, rgb(0, 255, 238), yellow, orange);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3% ;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.classDiv img {
+    height: 40px;
+}
+.shopify{
+    height: 80px;
+}
+.classDiv span {
+    background-color: rgb(3, 255, 247);
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 5;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* header style finish */
+
+/* main style */
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    padding-top: 80px;
+    background-position: center;
+}
+
+.product-item{
+    box-shadow: 2px 4px 8px gray;
+    height: 500px;
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.product-item img{
+    width:90%;
+    height: 300px;
+}
+
+@media screen and (max-width:700px) {
+
+    .product-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-item img{
+        width:90%;
+        height: 200px;
+    }
+  }
+
+@media screen and (max-width:1200px) {
+    .product-item{
+        width: 45%;
+        height: fit-content;
+        padding: 10px;
+    }
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+/* cart_page start */
+
+.cart_page{
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:83.5vh;
+}
+.cart_page table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 15px;
+}
+.amount_part {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.amount_part th{
+    text-align: left;
+}
+.amount_part td{
+    text-align: right;
+}
+.cart_page a{
+    font-size: 25px;
+    text-decoration: none;
+    color: crimson;
+    text-align: right;
+    border: 1px solid black;
+    width: fit-content;
+    padding:0 10px;
+    border-radius: 10px;
+}
+.cart_page a:hover{
+    background-color: darkorange;
+    color: black;
+    border: none;
+}

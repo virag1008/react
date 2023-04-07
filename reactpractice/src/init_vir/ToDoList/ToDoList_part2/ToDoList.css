@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+.outerDiv{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv{
+    background-color: wheat;
+    width: 350px;
+    height: 500px;
+}
+
+.text{
+    text-align: center;
+}
+
+.innerDiv h1{
+    margin: 15px;
+    text-shadow: 4px 6px 5px rgb(67, 135, 195);
+    text-align: center;
+}
+
+.inputClass{
+    background-color: wheat;
+    outline: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid rgb(76, 124, 5);
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+}
+
+.listclass{
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.deleteBtn:hover{
+    color: red;
+}
+
+.deleteBtn {
+    color: rgb(175, 123, 2);
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 1px 2px 3px gray;
+}

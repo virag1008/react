@@ -1,0 +1,23 @@
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: gainsboro;
+}
+input{
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}

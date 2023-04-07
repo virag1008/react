@@ -1,0 +1,17 @@
+div{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px rgb(215, 180, 234);
+}
+button:hover{
+    background-color: rgb(232, 220, 220);
+}

@@ -1,0 +1,20 @@
+.aa .active{
+    color: rgb(237, 106, 12);
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar{
+    text-align: center;
+}
+.login{
+    text-align: center;
+}

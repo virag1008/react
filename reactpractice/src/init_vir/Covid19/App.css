@@ -1,0 +1,10 @@
+td:hover{
+    background-color: greenyellow;
+}
+
+.risk:hover{
+    background-color:rgb(252, 75, 75);
+}
+table{
+    box-shadow: 4px 5px 7px gray;
+}

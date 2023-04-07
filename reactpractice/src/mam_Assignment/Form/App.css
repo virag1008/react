@@ -1,0 +1,26 @@
+form{
+    background-color: aquamarine;
+    
+}
+.centerDiv{
+    text-align:start;
+    width:fit-content;
+    padding-top: 10px;
+}
+.maindiv{
+    background-color: rgb(234, 234, 234);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input  {
+    padding: 5px;
+    font-size: 15px;
+    float: right;
+}
+textarea,select{
+    float: right;
+}
+
+

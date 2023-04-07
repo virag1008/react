@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.outerDiv{
+    height: 100vh;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.innerDiv{
+    background-color: white;
+    width: 450px;
+    height:fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+.ques{
+    padding-bottom: 10px;
+}
+.btn{
+    box-shadow: 1px 2px 3px gray;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.abc{
+    display: inline;
+    padding-left: 10px;
+}
+.Qmark{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(243, 230, 230);
+}
+
+h1{
+    padding: 20px;
+}
